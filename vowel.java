@@ -1,0 +1,13 @@
+import java.util.*;
+class vowel{
+public static void main(String[]args){
+String arr[]={"a","e","i","o","u"};
+Scanner sc=new Scanner(System.in);
+String letter=sc.next().toLowerCase();
+for(int i=0;i<arr.length;i++){
+if(letter==arr[i]){
+System.out.print("vowel");
+}
+else{
+System.out.println("consonent");}
+}}}
